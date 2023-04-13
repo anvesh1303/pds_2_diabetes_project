@@ -1,0 +1,13 @@
+Introduction:
+The purpose of this report is to compare the statistics of BloodPressure variable obtained from a bootstrap sample and the population. In order to achieve this, we generated 500 samples, each containing 150 observations, from the population using the bootstrap method with replacement. We then calculated the average mean, standard deviation, and percentile for BloodPressure for both the bootstrap sample and population, and compared the results.
+
+Results:
+The average mean of BloodPressure for the bootstrap sample was found to be 72.2886, which is very close to the population mean of 72.2728. The standard deviation for the bootstrap sample was 0.9897, which is also quite similar to the population standard deviation of 11.9009. However, the 98th percentile for the bootstrap sample was 98, while for the population, it was 91.01. This difference might suggest that the BloodPressure values in the bootstrap sample are skewed towards higher values compared to the population.
+
+Charts:
+The following charts compare the statistics of BloodPressure for the bootstrap sample and the population.
+
+BloodPressure Statistics Comparison for Bootstrap Sample and Population
+
+Conclusion:
+In conclusion, we found that the BloodPressure statistics for the bootstrap sample and the population were quite similar, except for the 98th percentile. This difference in percentile might indicate a slight skewness towards higher values in the bootstrap sample. Overall, our analysis suggests that the bootstrap method is a reliable way to estimate the statistics of BloodPressure variable for the population.
